@@ -1,0 +1,35 @@
+# === SHELL & THEME ===
+shell-integration = fish
+background-opacity = 1.0
+font-family = "FiraCode Nerd Font Mono"
+
+# === TAB MANAGEMENT ===
+keybind = cmd+t=new_tab
+keybind = cmd+w=close_surface
+keybind = cmd+shift+left_bracket=previous_tab
+keybind = cmd+shift+right_bracket=next_tab
+
+# === SPLIT MANAGEMENT ===
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+
+# Navigate splits
+keybind = cmd+shift+h=goto_split:left
+keybind = cmd+shift+j=goto_split:bottom
+keybind = cmd+shift+k=goto_split:top
+keybind = cmd+shift+l=goto_split:right
+
+# Resize splits
+keybind = cmd+ctrl+h=resize_split:left,10
+keybind = cmd+ctrl+j=resize_split:down,10
+keybind = cmd+ctrl+k=resize_split:up,10
+keybind = cmd+ctrl+l=resize_split:right,10
+
+# Useful extras
+keybind = cmd+shift+e=equalize_splits
+keybind = cmd+shift+z=toggle_split_zoom
+
+# === OTHER ===
+keybind = cmd+k=text:\x0c
+macos-option-as-alt = true
+
