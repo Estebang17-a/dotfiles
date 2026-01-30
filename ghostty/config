@@ -1,5 +1,7 @@
 # === SHELL & THEME ===
 shell-integration = fish
+shell-integration-features = ssh-terminfo,ssh-env
+command = /opt/homebrew/bin/fish
 background-opacity = 1.0
 font-family = "FiraCode Nerd Font Mono"
 
@@ -14,10 +16,10 @@ keybind = cmd+d=new_split:right
 keybind = cmd+shift+d=new_split:down
 
 # Navigate splits
-keybind = cmd+shift+h=goto_split:left
-keybind = cmd+shift+j=goto_split:bottom
-keybind = cmd+shift+k=goto_split:top
-keybind = cmd+shift+l=goto_split:right
+keybind = cmd+h=goto_split:left
+keybind = cmd+j=goto_split:bottom
+keybind = cmd+k=goto_split:top
+keybind = cmd+l=goto_split:right
 
 # Resize splits
 keybind = cmd+ctrl+h=resize_split:left,10

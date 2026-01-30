@@ -3,6 +3,7 @@ if status is-login
     set -gx PATH /usr/local/bin $PATH
     set -gx PATH $HOME/.cargo/bin $PATH
     set -gx PATH /usr/local/opt/postgresql@16/bin $PATH
+    set -gx PATH $HOME/.bun/bin $PATH
     eval "$(/opt/homebrew/bin/brew shellenv)"
     pyenv init --path | source
     source "$HOME/.cargo/env.fish"
